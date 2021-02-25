@@ -1,4 +1,7 @@
-# flask-basic-blog
+# [Flask Basic Blog Tutorial](https://flask.palletsprojects.com/en/1.1.x/tutorial/)
+## `venv` Virtual Environment
+* `. venv/bin/activate`: open shell (from repo root)
+* `deactivate`: close shell (inside venv shell)
 ## Layout
 /home/user/Projects/flask-tutorial
 ├── flaskr/
