@@ -2,6 +2,8 @@
 ## `venv` Virtual Environment
 * `. venv/bin/activate`: open shell (from repo root)
 * `deactivate`: close shell (inside venv shell)
+## dependencies
+* `python-dotenv`: for keeping secrets secret
 ## Layout
 /home/user/Projects/flask-tutorial
 ├── flaskr/
