@@ -7,6 +7,14 @@
     export FLASK_ENV=development
     flask run
     ```
+* To initialize DB:
+  * Open new terminal window
+    ```
+    (. venv/bin/activate) -- if not in venv already
+    export FLASK_APP=flaskr
+    export FLASK_ENV=development
+    flask init-db
+    ```
 * To close shell (from venv repo root): `deactivate`
 ## dependencies
 * `python-dotenv`: for keeping secrets secret
