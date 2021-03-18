@@ -13,8 +13,10 @@ def create_app(test_config=None):
     ## instance_relative_config=True
     app = Flask(__name__, instance_relative_config=True) # create Flask instance
     app.config.from_mapping(
-        SECRET_KEY=config['SECRET_KEY'],
-        DATABASE=config['DATABASE'],
+        # a default secret that should be overridden by instance config
+        SECRET_KEY="dev",
+        # store the database in the instance folder
+        DATABASE=os.path.join(app.instance_path, "flaskr.sqlite"),
     )
 
     # test_config: a dedicated config for testing
