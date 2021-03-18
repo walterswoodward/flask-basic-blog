@@ -1,7 +1,13 @@
 # [Flask Basic Blog Tutorial](https://flask.palletsprojects.com/en/1.1.x/tutorial/)
-## `venv` Virtual Environment
-* `. venv/bin/activate`: open shell (from repo root)
-* `deactivate`: close shell (inside venv shell)
+## Getting Started
+* To open shell (from repo root): `. venv/bin/activate`
+* To run (from venv repo root):
+    ```
+    export FLASK_APP=flaskr
+    export FLASK_ENV=development
+    flask run
+    ```
+* To close shell (from venv repo root): `deactivate`
 ## dependencies
 * `python-dotenv`: for keeping secrets secret
 ## Layout
