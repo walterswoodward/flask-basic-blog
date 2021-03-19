@@ -8,6 +8,4 @@ def test_config():
 
 def test_hello(client):
     response = client.get('/')
-    assert response.data == {
-        "active": "true"
-    }
+    assert response.data == b'server active'

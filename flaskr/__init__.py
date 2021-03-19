@@ -37,9 +37,7 @@ def create_app(test_config=None):
     # a simple page that says hello
     @app.route('/')
     def is_active():
-        return {
-            "active": "true"
-        }
+        return "server active"
 
     from . import auth
     app.register_blueprint(auth.bp)
