@@ -20,6 +20,7 @@
 sqlite3
 .help -- lists commands (e.g. .database, .tables, .exit etc.)
 ```
+### To test: `python -m pytest tests`
 ### To close shell (from venv repo root): 
 ```
 deactivate
