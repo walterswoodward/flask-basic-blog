@@ -1,11 +1,6 @@
 import os
 
 from flask import Flask
-from dotenv import dotenv_values
-
-# this isn't actually necessary if using an instance config file
-# but wanted to try it out
-config = dotenv_values(".env")
 
 def create_app(test_config=None):
     # create and configure the app
